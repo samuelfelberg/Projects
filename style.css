@@ -1,0 +1,148 @@
+/*ESTILOS GERAIS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(130,130,130);
+}
+
+html,body{
+    height: 100%;
+    background-color: rgb(20, 20, 20);
+}
+
+.clear{
+    clear: both;
+}
+
+.content{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+/*ESTILOS ESPECÍFICOS*/
+
+/*HEADER*/
+header{
+    padding: 40px 2%;
+}
+
+header .content{
+    border-bottom: 4px solid rgb(200,200,200);
+}
+
+header img:nth-of-type(1){
+    width: 130px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    margin-top: 20px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    float: left;
+    padding: 0 10px;
+}
+
+header nav ul li a{
+    color: rgb(200,200,200);
+    cursor: pointer;
+}
+
+/*SECTION*/
+section.section-1{
+    padding: 260px 0;
+    text-align: center;
+    background-image: url('../images/mibrbg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(100,100,100);
+}
+
+.section-1 .h1-wraper{
+    background-color: rgba(100,100,100, 0.6);
+}
+
+.section-1 h1{
+    font-size: 100px;
+    letter-spacing: 8px;
+    font-weight: bold;
+    color: rgb(220,220,220);
+    font-weight: 900;
+}
+
+/*PERFIL-FALLEN*/
+section.perfil-fallen{
+    padding: 40px 2%;
+}
+
+section.perfil-fallen .content{
+    background: linear-gradient(to bottom right, rgb(220,220,220),rgb(30,30,30));
+}
+
+section.perfil-fallen .img-fallen{
+    width: 30%;
+    height: 468px;
+    float: left;
+    background-image: url('../images/fallenperfil.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+section.perfil-fallen .descricao-fallen{
+    width: 70%;
+    height: 468px;
+    float: right;
+    text-align: center;
+    padding-top: 20px;
+}
+
+section.perfil-fallen .descricao-fallen h2{
+    font-size: 40px;
+    padding-top: 10px;
+    color:white;
+}
+
+section.perfil-fallen .descricao-fallen p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 0 20px;
+    line-height: 27px;
+    padding-top: 3%;
+    color: white;
+}
+
+section.perfil-fallen .descricao-fallen ul{
+    list-style-type: none;
+    padding-top: 6%;
+    text-align: center;
+    padding-left: 25%;
+}
+
+section.perfil-fallen .descricao-fallen li{
+    float: left;
+    padding: 0 10px;
+}
+
+section.perfil-fallen .descricao-fallen a{
+    text-decoration: none;
+}
+
+/*FOOTER*/
+footer{
+    padding: 40px 2%;
+    background-color:rgb(100,100,100);
+}
+
+footer .content{
+    text-align: center;
+}
+
